@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'GT America';
+  src: url('GT-America-Standard-Regular.otf');
+}
+@font-face {
+  font-family: 'Goudy Mediaeval';
+  src: url('GoudyMediaeval-Regular.ttf');
+}
+@import url('https://fonts.cdnfonts.com/css/adobe-garamond-pro-2');
+
+.tg  {
+	border-collapse:collapse;
+	border-spacing:0;
+	margin:0px auto;
+	width: 1366px; /* resolution 2732px but displays at 1366px */
+	height: 1028px; /* Display is 2048px but displays 1028px */
+	}
+
+.tg td{
+	width: 50%;
+	background-color:#BFBBBB;
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	font-size:1.0em;
+	overflow:hidden;
+	padding:0px 0px;
+	word-break:normal;
+	}
+.tg th{
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+    font-family: 'Adobe Garamond Pro';
+	font-size:14px;
+	font-weight:normal;
+	overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;
+	}
+.tg .tg-title {
+	background-color:#862633;
+	color: #FFFFFF;
+	text-align:center;
+	vertical-align:middle;
+	height: 10%;
+	font-family: 'Goudy Mediaeval', sans-serif;
+	font-size: 4.5em;
+	}
+.tg .tg-big{
+	text-align:center;
+	vertical-align:middle; 
+	height:40%;
+	font-size: 1.5em;
+	}
+.tg-big img {
+	max-width: 675px; /* 1350px; */
+	max-height: 400px; /* 800px; */
+	object-fit: contain;
+	}
+
+.tg .tg-small-left{
+	font-size: 1.5em;
+	text-align:left;
+	vertical-align:middle;
+	height: 40%;
+	}
+.tg .tg-small-right{
+	font-size: 1.5em;
+	text-align:right;
+	vertical-align:middle;
+	height: 10%;
+    font-family: 'Adobe Garamond Pro';
+	}
