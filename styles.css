@@ -13,7 +13,7 @@
 	border-spacing:0;
 	margin:0px auto;
 	width: 1366px; /* resolution 2732px but displays at 1366px */
-	height: 1028px; /* Display is 2048px but displays 1028px */
+	height: 1000px; /* Display is 2048px but displays 1028px */
 	}
 
 .tg td{
@@ -65,6 +65,9 @@
 	vertical-align:middle;
 	height: 40%;
 	}
+.tg .tg-small-left img {
+	max-height: 100px;
+}
 .tg .tg-small-right{
 	font-size: 1.5em;
 	text-align:right;
@@ -72,3 +75,6 @@
 	height: 10%;
     font-family: 'Adobe Garamond Pro';
 	}
+.tg .tg-small-right img {
+	max-height: 100px;
+}
