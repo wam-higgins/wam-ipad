@@ -11,7 +11,7 @@
 .tg  {
 	border-collapse:collapse;
 	border-spacing:0;
-	margin:0px auto;
+	margin:auto auto auto auto;
 	width: 1350px; /* resolution 2732px but displays at 1366px */
 	height: 990px; /* Display is 2048px but displays 1028px */
 	}
