@@ -68,6 +68,15 @@
 .tg .tg-small-left img {
 	max-height: 30px;
 }
+.tg .tg-small-center{
+	font-size: 1.5em;
+	text-align:left;
+	vertical-align:middle;
+	height: 40%;
+	}
+.tg .tg-small-center img {
+	max-height: 30px;
+}
 .tg .tg-small-right{
 	font-size: 1.5em;
 	text-align:right;
