@@ -12,7 +12,7 @@
 	border-collapse:collapse;
 	border-spacing:0;
 	margin:auto auto auto auto;
-	width: 1300px; /* resolution 2732px but displays at 1366px */
+	width: 1280px; /* resolution 2732px but displays at 1366px */
 	height: 990px; /* Display is 2048px but displays 1028px */
 	}
 
