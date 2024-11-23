@@ -3,7 +3,7 @@
 <plist version="1.0">
   <dict>
     <key>version</key>
-    <integer>4</integer>
+    <integer>5</integer>
     <key>zip</key>
     <string>https://github.com/bchabot/wam-ipad/archive/refs/heads/main.zip</string>
     <key>clear-previous-content</key>
