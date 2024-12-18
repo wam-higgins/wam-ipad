@@ -8,6 +8,10 @@
 }
 @import url('https://fonts.cdnfonts.com/css/adobe-garamond-pro-2');
 
+body {
+	background-color:#BFBBBB;
+}
+
 .tg  {
 	border-collapse:collapse;
 	border-spacing:0;
