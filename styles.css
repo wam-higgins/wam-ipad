@@ -10,9 +10,15 @@
 
 body {
 	background-color:#862633;
+	text-align: center;
 }
 a {
     color:white;
+}
+iframe {
+	display: block;
+	margin: auto;
+	text-align: center;
 }
 
 .tg  {
