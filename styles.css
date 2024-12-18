@@ -26,7 +26,7 @@ iframe {
 	border-spacing:0;
 	margin:auto auto auto auto;
 	width: 1280px; /* resolution 2732px but displays at 1366px */
-	height: 900px; /* Display is 2048px but displays 1028px */
+	height: 875px; /* Display is 2048px but displays 1028px */
 	}
 
 .tg td{
@@ -67,7 +67,7 @@ iframe {
 	}
 .tg-big img {
 	max-width: 665px; /* 1350px; */
-	max-height: 380px; /* 800px; */
+	max-height: 370px; /* 800px; */
 	object-fit: contain;
 	}
 
