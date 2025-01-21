@@ -28,6 +28,11 @@ iframe {
 	width: 1280px; /* resolution 2732px but displays at 1366px */
 	height: 875px; /* Display is 2048px but displays 1028px */
 	}
+.tg img {
+	max-width: 665px; 
+	max-height: 370px;
+	object-fit: contain;
+	}
 
 .tg td{
 	background-color:#862633;
