@@ -7,24 +7,27 @@
 	<title>Explore the Arms and Armor Collection</title>
 </head>
 <script>
-const video = document.querySelector('video');
+document.addEventListener('DOMContentLoaded', function() {
+    const videos = document.querySelectorAll('video');
 
-video.addEventListener('click', () => {
-  if (document.fullscreenElement) {
-    document.exitFullscreen();
-  } else if (video.requestFullscreen) {
-    video.requestFullscreen();
-  } else if (video.webkitRequestFullscreen) { /* Safari */
-    video.webkitRequestFullscreen();
-  } else if (video.msRequestFullscreen) { /* IE11 */
-    video.msRequestFullscreen();
-  }
-});
+    videos.forEach(video => {
+        video.addEventListener('click', function() {
+            if (video.requestFullscreen) {
+                video.requestFullscreen();
+            } else if (video.webkitRequestFullscreen) { // Safari
+                video.webkitRequestFullscreen();
+            } else if (video.msRequestFullscreen) { // IE11
+                video.msRequestFullscreen();
+            }
+            video.play();
+        });
 
-video.addEventListener('ended', () => {
-    if (document.fullscreenElement) {
-        document.exitFullscreen();
-    }
+        video.addEventListener('ended', function() {
+            if (document.fullscreenElement) {
+                document.exitFullscreen();
+            }
+        });
+    });
 });
 </script>
 <body>
