@@ -6,6 +6,27 @@
 	<link rel="stylesheet" href="styles.css">
 	<title>Explore the Arms and Armor Collection</title>
 </head>
+<javascript>
+const video = document.querySelector('video');
+
+video.addEventListener('click', () => {
+  if (document.fullscreenElement) {
+    document.exitFullscreen();
+  } else if (video.requestFullscreen) {
+    video.requestFullscreen();
+  } else if (video.webkitRequestFullscreen) { /* Safari */
+    video.webkitRequestFullscreen();
+  } else if (video.msRequestFullscreen) { /* IE11 */
+    video.msRequestFullscreen();
+  }
+});
+
+video.addEventListener('ended', () => {
+    if (document.fullscreenElement) {
+        document.exitFullscreen();
+    }
+});
+</javascript>
 <body>
 <!--  Make a Table: The screen is 2732x2048px but displayed at 50% of thwt! -->
 
@@ -18,9 +39,13 @@
   <tr>
     <td class="tg-big">
 	
-	<!-- Top Left: What's in THIS Display?  -->
+	<!-- Top Left: What's in THIS Display? 
 	<a href="featured.html"><img src="images/1.jpg" alt="What's on display here?"><br />
-	Featured Content</a>
+	Featured Content</a> -->
+	<video controls id="my-video">
+		<source src="videos/BTS1.mp4" />
+	</video>
+
     <td class="tg-big">
 	
 	<!-- Top Right: BTS Videos -->
