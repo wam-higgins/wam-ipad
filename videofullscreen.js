@@ -11,7 +11,7 @@
 // Auto Play: 
 // Close fullscreen on exit: 
 const videos = document.querySelectorAll('video');
-/* 
+
 let currentPreviewIndex = 0;
 
 function playPreview() {
@@ -23,7 +23,7 @@ function playPreview() {
         playPreview();
     }, 5000); // Change preview every 5 seconds
 }
-*/
+
 
 videos.forEach((video) => {
     video.addEventListener('click', () => {
@@ -35,7 +35,7 @@ videos.forEach((video) => {
     });
 });
 
-// playPreview();
+playPreview();
 // End zzzcode
 
 
