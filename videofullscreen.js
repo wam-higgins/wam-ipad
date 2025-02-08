@@ -4,7 +4,7 @@
 
 /*
 // From https://zzzcode.ai/javascript/code-generator?id=9886521f-5ae3-4040-8bd6-d9b90f6b0265
-// Result:
+// Result: FAIL
 // Fullscreen on click: Pass
 // Auto Play: Pass
 // Close fullscreen on exit: Fail
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 /*
 // From https://www.codeconvert.ai/javascript-code-generator
-// Result:
+// Result: FAIL
 // Fullscreen on click: Pass
 // Auto Play: Pass
 // Close fullscreen on exit: Fail
@@ -65,10 +65,10 @@ document.addEventListener('click', function(event) {
 
 
 // from https://workik.com/javascript-code-generator
-// Result:
-// Fullscreen on click: 
-// Auto Play: 
-// Close fullscreen on exit: 
+// Result: FAIL
+// Fullscreen on click: Fail
+// Auto Play: Fail
+// Close fullscreen on exit: Fail
 
 // script.js
 
