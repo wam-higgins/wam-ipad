@@ -115,12 +115,12 @@ document.addEventListener('DOMContentLoaded', function() {
 */
 
 
-
+/*
 // from https://www.mymap.ai/playground?mid=vHSswtlge5zqG
-// Result:
-// Fullscreen on click: 
-// Auto Play: 
-// Close fullscreen on exit: 
+// Result: FAIL
+// Fullscreen on click: Pass
+// Auto Play: Pass
+// Close fullscreen on exit: Fail
 
 document.addEventListener('DOMContentLoaded', (event) => {
 // Select all video elements on the page
@@ -158,9 +158,9 @@ videos.forEach((video) => {
 video.addEventListener('click', handleVideoClick);
 });
 });
+*/
 
 
-/*
 // From https://typli.ai/ai-javascript-code-generator
 // Result:
 // Fullscreen on click: 
@@ -209,4 +209,4 @@ video.addEventListener('click', handleVideoClick);
         video.addEventListener('ended', () => {
             closeFullscreen();
         });
-*/
+
