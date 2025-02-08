@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>version</key>
-    <integer>24</integer>
-    <key>zip</key>
-    <string>https://github.com/bchabot/wam-ipad/archive/refs/heads/main.zip</string>
-    <key>clear-previous-content</key>
-      <false/>
-  </dict>
+    <array>
+        <dict>
+            <key>version</key>
+            <integer>24</integer>
+            <key>zip</key>
+            <string>https://github.com/bchabot/wam-ipad/archive/refs/heads/main.zip</string>
+            <key>clear-previous-content</key>
+            <false/>
+        </dict>
+        <dict>
+            <key>version</key>
+            <integer>1</integer>
+            <key>zip</key>
+            <string>https://drive.google.com/file/d/19ASBQjwM95Kor4Gnc2rhPnpHJZh1oa7c/view?usp=drive_link</string>
+            <key>clear-previous-content</key>
+            <false/>
+        </dict>
+    </array>
 </plist>
+
+
