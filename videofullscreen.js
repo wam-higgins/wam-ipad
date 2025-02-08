@@ -34,11 +34,12 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 */
 
+/*
 // From https://www.codeconvert.ai/javascript-code-generator
 // Result:
-// Fullscreen on click: 
-// Auto Play: 
-// Close fullscreen on exit: 
+// Fullscreen on click: Pass
+// Auto Play: Pass
+// Close fullscreen on exit: Fail
 
 document.addEventListener('click', function(event) {
     const video = event.target.closest('video');
@@ -60,8 +61,9 @@ document.addEventListener('click', function(event) {
         };
     }
 });
+*/
 
-/*
+
 // from https://workik.com/javascript-code-generator
 // Result:
 // Fullscreen on click: 
@@ -110,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
         closeFullscreen(); // Exit fullscreen when video is done
     });
 });
-*/
+
 
 
 /*
