@@ -6,30 +6,7 @@
 	<link rel="stylesheet" href="styles.css">
 	<title>Explore the Arms and Armor Collection</title>
 </head>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const videos = document.querySelectorAll('video');
-
-    videos.forEach(video => {
-        video.addEventListener('click', function() {
-            if (video.requestFullscreen) {
-                video.requestFullscreen();
-            } else if (video.webkitRequestFullscreen) { // Safari
-                video.webkitRequestFullscreen();
-            } else if (video.msRequestFullscreen) { // IE11
-                video.msRequestFullscreen();
-            }
-            video.play();
-        });
-
-        video.addEventListener('ended', function() {
-            if (document.fullscreenElement) {
-                document.exitFullscreen();
-            }
-        });
-    });
-});
-</script>
+<script type="text/javascript" src="videofullscreen.js"></script>
 <body>
 <!--  Make a Table: The screen is 2732x2048px but displayed at 50% of thwt! -->
 
