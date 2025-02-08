@@ -63,12 +63,13 @@ document.addEventListener('click', function(event) {
 });
 */
 
-/*
+
 // from https://workik.com/javascript-code-generator
 // Result: FAIL
 // Fullscreen on click: Pass
 // Auto Play: Pass
 // Close fullscreen on exit: Fail
+// Requires ElementID, but best written
 
 // script.js
 
@@ -112,101 +113,19 @@ document.addEventListener('DOMContentLoaded', function() {
         closeFullscreen(); // Exit fullscreen when video is done
     });
 });
-*/
 
 
-/*
+
 // from https://www.mymap.ai/playground?mid=vHSswtlge5zqG
 // Result: FAIL
 // Fullscreen on click: Pass
 // Auto Play: Pass
 // Close fullscreen on exit: Fail
-
-document.addEventListener('DOMContentLoaded', (event) => {
-// Select all video elements on the page
-const videos = document.querySelectorAll('video');
-
-// Function to handle fullscreen and video play
-const handleVideoClick = (event) => {
-const video = event.currentTarget;
-
-// Check if video is in fullscreen
-if (document.fullscreenElement) {
-document.exitFullscreen(); // Exit fullscreen if already in fullscreen
-} else {
-// Request fullscreen for the video element
-video.requestFullscreen()
-.then(() => {
-video.play(); // Play video when fullscreen is activated
-})
-.catch((err) => {
-console.error("Error attempting to enable fullscreen mode:", err);
-});
-}
-
-// Add an event listener for when the video ends
-video.addEventListener('ended', () => {
-// Exit fullscreen when the video ends
-if (document.fullscreenElement) {
-document.exitFullscreen();
-}
-});
-};
-
-// Attach click event listener to each video
-videos.forEach((video) => {
-video.addEventListener('click', handleVideoClick);
-});
-});
-*/
-
+// UGLY code.
 
 // From https://typli.ai/ai-javascript-code-generator
-// Result:
-// Fullscreen on click: 
-// Auto Play: 
-// Close fullscreen on exit: 
-
- const video = document.getElementById('myVideo');
-
-        // Function to play video in fullscreen
-        const openFullscreen = (el) => {
-            // Check if the element is already in fullscreen
-            if (document.fullscreenElement) {
-                return;
-            }
-            if (el.requestFullscreen) {
-                el.requestFullscreen();
-            } else if (el.webkitRequestFullscreen) { // Safari
-                el.webkitRequestFullscreen();
-            } else if (el.mozRequestFullScreen) { // Firefox
-                el.mozRequestFullScreen();
-            } else if (el.msRequestFullscreen) { // IE/Edge
-                el.msRequestFullscreen();
-            }
-        };
-
-        // Function to exit fullscreen
-        const closeFullscreen = () => {
-            if (document.exitFullscreen) {
-                document.exitFullscreen();
-            } else if (document.webkitExitFullscreen) { // Safari
-                document.webkitExitFullscreen();
-            } else if (document.mozCancelFullScreen) { // Firefox
-                document.mozCancelFullScreen();
-            } else if (document.msExitFullscreen) { // IE/Edge
-                document.msExitFullscreen();
-            }
-        };
-
-        // Play video and go fullscreen on video click
-        video.addEventListener('click', () => {
-            openFullscreen(video);
-            video.play();
-        });
-
-        // Exit fullscreen when video ends
-        video.addEventListener('ended', () => {
-            closeFullscreen();
-        });
+// Result: FAIL
+// Fullscreen on click: Fail
+// Auto Play: Fail
+// Close fullscreen on exit: Fail
 
