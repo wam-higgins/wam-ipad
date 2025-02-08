@@ -63,11 +63,11 @@ document.addEventListener('click', function(event) {
 });
 */
 
-
+/*
 // from https://workik.com/javascript-code-generator
 // Result: FAIL
-// Fullscreen on click: Fail
-// Auto Play: Fail
+// Fullscreen on click: Pass
+// Auto Play: Pass
 // Close fullscreen on exit: Fail
 
 // script.js
@@ -112,10 +112,10 @@ document.addEventListener('DOMContentLoaded', function() {
         closeFullscreen(); // Exit fullscreen when video is done
     });
 });
+*/
 
 
 
-/*
 // from https://www.mymap.ai/playground?mid=vHSswtlge5zqG
 // Result:
 // Fullscreen on click: 
@@ -158,7 +158,7 @@ videos.forEach((video) => {
 video.addEventListener('click', handleVideoClick);
 });
 });
-*/
+
 
 /*
 // From https://typli.ai/ai-javascript-code-generator
