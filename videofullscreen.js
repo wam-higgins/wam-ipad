@@ -1,3 +1,28 @@
+// From https://zzzcode.ai/javascript/code-generator?id=9886521f-5ae3-4040-8bd6-d9b90f6b0265
+
+document.addEventListener('click', function(event) {
+    const video = event.target.closest('video');
+    if (video) {
+        if (video.requestFullscreen) {
+            video.requestFullscreen();
+        } else if (video.webkitRequestFullscreen) { // Safari
+            video.webkitRequestFullscreen();
+        }
+        video.play();
+
+        video.onended = function() {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.webkitExitFullscreen) { // Safari
+                document.webkitExitFullscreen();
+            }
+        };
+    }
+});
+
+
+
+
 // Code from AI generators.
 // The query was:
 /*
@@ -10,13 +35,14 @@ Write html and javascript that work correctly on WKWebView on iPad that will:
 6. ALL of these MUST WORK correctly on iPad with WKWebView.
 */
 
+/*
 // From https://zzzcode.ai/javascript/code-generator?id=9886521f-5ae3-4040-8bd6-d9b90f6b0265
 // Result: FAIL
-// Play Preview Clip: 
-// Rotate Clips playing correctly:
-// Fullscreen on click: 
-// Auto Play: 
-// Close fullscreen on exit: 
+// Play Preview Clip: F
+// Rotate Clips playing correctly: F
+// Fullscreen on click: F
+// Auto Play: F
+// Close fullscreen on exit: F
 const videos = document.querySelectorAll('video');
 
 let currentPreviewIndex = 0;
@@ -44,7 +70,7 @@ videos.forEach((video) => {
 
 playPreview();
 // End zzzcode
-
+*/
 
 
 /*
