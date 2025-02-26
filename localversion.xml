@@ -12,9 +12,9 @@
         </dict>
         <dict>
             <key>version</key>
-            <integer>1</integer>
+            <integer>2</integer>
             <key>zip</key>
-            <string>https://drive.google.com/file/d/19ASBQjwM95Kor4Gnc2rhPnpHJZh1oa7c/view?usp=drive_link</string>
+            <string>https://github.com/bchabot/wam-ipad-videos/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
             <false/>
         </dict>
