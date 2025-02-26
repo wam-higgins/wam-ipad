@@ -15,6 +15,10 @@ body {
 a {
     color:white;
 }
+b {
+    color:white;
+    text-aligh:center;
+}
 iframe {
 	display: block;
 	margin: auto;
