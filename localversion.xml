@@ -12,7 +12,7 @@
         </dict>
         <dict>
             <key>version</key>
-            <integer>32</integer>
+            <integer>33</integer>
             <key>zip</key>
             <string>https://github.com/bchabot/wam-ipad-videos/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
