@@ -6,7 +6,7 @@
             <key>version</key>
             <integer>30</integer>
             <key>zip</key>
-            <string>https://github.com/bchabot/wam-ipad/archive/refs/heads/main.zip</string>
+            <string>https://github.com/wam-higgins/wam-ipad/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
             <false/>
         </dict>
