@@ -4,19 +4,19 @@
     <array>
         <dict>
             <key>version</key>
-            <integer>44</integer>
+            <integer>45</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/wam-ipad/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
-            <false/>
+            <true/>
         </dict>
         <dict>
             <key>version</key>
-            <integer>44</integer>
+            <integer>45</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/wam-ipad-videos/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
-            <false/>
+            <true/>
         </dict>
     </array>
 </plist>
