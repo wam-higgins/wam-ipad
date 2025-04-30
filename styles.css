@@ -29,7 +29,9 @@ iframe {
 	color: #FFFFFF;
 	text-align:center;
 	font-family: 'GT America', serif;
-	font-size: 2em;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-bottom: 5px;
 	}
 .tg  {
 	border-collapse:collapse;
