@@ -68,6 +68,15 @@ iframe {
 	font-family: 'Goudy Mediaeval', sans-serif;
 	font-size: 4.5em;
 	}
+.tg .tg-label {
+	background-color:#862633;
+	color: #FFFFFF;
+	text-align:center;
+	vertical-align:middle;
+	height: 10%;
+	font-family: 'GT America', serif;
+	font-size: 2em;
+	}
 .tg .tg-big{
 	text-align:center;
 	vertical-align:middle; 
