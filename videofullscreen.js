@@ -20,8 +20,8 @@ document.addEventListener('click', function(event) {
     }
 });
 
-# Fullscreen Iframe on WKWebView for iPad
-# from https://zzzcode.ai/javascript/code-generator?id=3f5b736d-f70d-419c-8796-8f9e422c3d2c
+// Fullscreen Iframe on WKWebView for iPad
+// from https://zzzcode.ai/javascript/code-generator?id=3f5b736d-f70d-419c-8796-8f9e422c3d2c
 
 document.querySelectorAll('iframe').forEach(iframe => {
     iframe.addEventListener('click', function() {
