@@ -1,5 +1,20 @@
-// From https://zzzcode.ai/javascript/code-generator?id=9886521f-5ae3-4040-8bd6-d9b90f6b0265
+// From https://zzzcode.ai/javascript/code-generator?id=988# Fullscreen Iframe on WKWebView for iPad
 
+document.querySelectorAll('iframe').forEach(iframe => {
+    iframe.addEventListener('click', function() {
+        if (iframe.requestFullscreen) {
+            iframe.requestFullscreen();
+        } else if (iframe.mozRequestFullScreen) { // Firefox
+            iframe.mozRequestFullScreen();
+        } else if (iframe.webkitRequestFullscreen) { // Chrome, Safari and Opera
+            iframe.webkitRequestFullscreen();
+        } else if (iframe.msRequestFullscreen) { // IE/Edge
+            iframe.msRequestFullscreen();
+        }
+    });
+});
+
+# From: https://zzzcode.ai/javascript/code-generator?id=3f5b736d-f70d-419c-8796-8f9e422c3d2c
 document.addEventListener('click', function(event) {
     const video = event.target.closest('video');
     if (video) {
