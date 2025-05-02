@@ -4,7 +4,7 @@
     <array>
         <dict>
             <key>version</key>
-            <integer>54</integer>
+            <integer>1</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/wam-ipad/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
@@ -12,7 +12,7 @@
         </dict>
         <dict>
             <key>version</key>
-            <integer>55</integer>
+            <integer>1</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/wam-ipad-videos/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
@@ -20,7 +20,7 @@
         </dict>
 		<dict>
             <key>version</key>
-            <integer>3</integer>
+            <integer>1</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/bts-video/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
