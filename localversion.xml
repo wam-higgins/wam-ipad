@@ -20,7 +20,7 @@
         </dict>
 	<dict>
             <key>version</key>
-            <integer>7</integer>
+            <integer>8</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/bts-video/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
