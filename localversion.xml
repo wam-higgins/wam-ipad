@@ -10,6 +10,7 @@
             <key>clear-previous-content</key>
             <false/>
         </dict>
+	    
         <dict>
             <key>version</key>
             <integer>8</integer>
@@ -20,7 +21,7 @@
         </dict>
 	<dict>
             <key>version</key>
-            <integer>8</integer>
+            <integer>9</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/bts-video/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
