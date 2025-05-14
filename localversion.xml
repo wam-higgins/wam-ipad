@@ -38,7 +38,7 @@
 
 	<dict> <!--Spotlight Videos -->
             <key>version</key>
-            <integer>1</integer>
+            <integer>4</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/spotlight-video/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
