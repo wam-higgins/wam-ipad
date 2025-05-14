@@ -2,42 +2,41 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <array>
-	<dict>
+   	<dict>
             <key>version</key>
-            <integer>13</integer>
-            <key>zip</key>
-            <string>https://github.com/wam-higgins/bts-video/archive/refs/heads/main.zip</string>
-            <key>clear-previous-content</key>
-            <false/>
-        </dict>
-	    
-        <dict>
-            <key>version</key>
-            <integer>14</integer>
+            <integer>1</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/wam-ipad/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
-            <false/>
-        </dict>
-	    
-	<dict>
-            <key>version</key>
-            <integer>12</integer>
-            <key>zip</key>
-            <string>https://github.com/wam-higgins/spotlight-video/archive/refs/heads/main.zip</string>
-            <key>clear-previous-content</key>
-            <false/>
+            <true/>
         </dict>
 
         <dict>
             <key>version</key>
-            <integer>15</integer>
+            <integer>1</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/wam-ipad-videos/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
             <false/>
         </dict>
 	    
+	<dict>
+            <key>version</key>
+            <integer>1</integer>
+            <key>zip</key>
+            <string>https://github.com/wam-higgins/bts-video/archive/refs/heads/main.zip</string>
+            <key>clear-previous-content</key>
+            <false/>
+        </dict>
+
+	<dict>
+            <key>version</key>
+            <integer>1</integer>
+            <key>zip</key>
+            <string>https://github.com/wam-higgins/spotlight-video/archive/refs/heads/main.zip</string>
+            <key>clear-previous-content</key>
+            <false/>
+        </dict>
 
     </array>
 </plist>
