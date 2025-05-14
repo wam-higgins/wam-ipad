@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
+
+<!--
+	IMPORTANT INFO: 
+	1. "clear-current-content" if set to true will DELETE EVERYTTHING.
+	2. Kiosk Pro only updates ONE zip at a time, no matter how you manipulate the version numbers. 
+ -->
+	
     <array>
-   	<dict>
+   	<dict> <!--Main HTML and static images -->
             <key>version</key>
             <integer>1</integer>
             <key>zip</key>
@@ -11,16 +18,16 @@
             <true/>
         </dict>
 
-        <dict>
+        <dict> <!--Home page video and screensaver-->
             <key>version</key>
-            <integer>1</integer>
+            <integer>2</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/wam-ipad-videos/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
             <false/>
         </dict>
 	    
-	<dict>
+	<dict> <!-- Behind the Scenes Videos -->
             <key>version</key>
             <integer>1</integer>
             <key>zip</key>
@@ -29,7 +36,7 @@
             <false/>
         </dict>
 
-	<dict>
+	<dict> <!--Spotlight Videos -->
             <key>version</key>
             <integer>1</integer>
             <key>zip</key>
