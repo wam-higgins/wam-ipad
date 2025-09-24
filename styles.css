@@ -6,6 +6,10 @@
   font-family: 'Goudy Mediaeval';
   src: url('GoudyMediaeval-Regular.ttf');
 }
+@font-face {
+	font-family: 'GT America Compressed';
+	src: url('GT-America-Compressed-Regular.otf');
+}
 @import url('https://fonts.cdnfonts.com/css/adobe-garamond-pro-2');
 
 body {
@@ -73,7 +77,7 @@ iframe {
 	text-align:center;
 	vertical-align:middle;
 	height: 10%;
-	font-family: 'Goudy Mediaeval', sans-serif;
+	font-family: 'GT America Compressed', sans-serif;
 	font-size: 4.5em;
 	}
 .tg .tg-big{
