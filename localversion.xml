@@ -24,16 +24,16 @@
             <key>zip</key>
             <string>https://github.com/wam-higgins/wam-ipad-videos/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
-            <true/>
+            <false/>
         </dict>
 	    
 	<dict> <!-- Behind the Scenes Videos -->
             <key>version</key>
-            <integer>12</integer>
+            <integer>13</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/bts-video/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
-            <false/>
+            <true/>
         </dict>
 
 	<dict> <!--Spotlight Videos -->
