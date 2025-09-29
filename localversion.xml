@@ -15,12 +15,12 @@
             <key>zip</key>
             <string>https://github.com/wam-higgins/wam-ipad/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
-            <true/>
+            <false/>
         </dict>
 
         <dict> <!--Home page video and screensaver-->
             <key>version</key>
-            <integer>17</integer>
+            <integer>18</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/wam-ipad-videos/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
@@ -33,7 +33,7 @@
             <key>zip</key>
             <string>https://github.com/wam-higgins/bts-video/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
-            <true/>
+            <false/>
         </dict>
 
 	<dict> <!--Spotlight Videos -->
