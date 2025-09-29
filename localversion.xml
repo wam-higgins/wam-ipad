@@ -20,7 +20,7 @@
 
         <dict> <!--Home page video and screensaver-->
             <key>version</key>
-            <integer>18</integer>
+            <integer>22</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/wam-ipad-videos/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
