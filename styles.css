@@ -90,7 +90,7 @@ iframe {
 	max-width: 665px; /* 1350px; */
 	max-height: 370px; /* 800px; */
 	object-fit: contain;
-	border: 4px solid black;
+	border: 4px solid #862633;
 	box-sizing: border-box;
 	}
 
