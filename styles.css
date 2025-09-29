@@ -93,7 +93,7 @@ iframe {
 	object-fit: contain;
 	border: 4px solid #862633;
 	box-sizing: border-box;
-	display: block;
+	display: contain;
 	margin: auto;
 	}
 
