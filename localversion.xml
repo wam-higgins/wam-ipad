@@ -29,11 +29,11 @@
 	    
 	<dict> <!-- Behind the Scenes Videos -->
             <key>version</key>
-            <integer>13</integer>
+            <integer>19</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/bts-video/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
-            <false/>
+            <true/>
         </dict>
 
 	<dict> <!--Spotlight Videos -->
