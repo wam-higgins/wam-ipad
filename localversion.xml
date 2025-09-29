@@ -24,7 +24,7 @@
             <key>zip</key>
             <string>https://github.com/wam-higgins/wam-ipad-videos/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
-            <false/>
+            <true/>
         </dict>
 	    
 	<dict> <!-- Behind the Scenes Videos -->
