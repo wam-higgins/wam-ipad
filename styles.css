@@ -88,12 +88,12 @@ iframe {
 	}
 .tg-big img,
 .tg-big video {
-	max-width: 665px; /* 1350px; */
-	max-height: 370px; /* 800px; */
+	width: 665px; /* 1350px; */
+	height: 370px; /* 800px; */
 	object-fit: contain;
 	border: 4px solid #862633;
 	box-sizing: border-box;
-	display: contain;
+	display: block;
 	margin: auto;
 	}
 
