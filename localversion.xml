@@ -11,7 +11,7 @@
     <array>
    	<dict> <!--Main HTML and static images -->
             <key>version</key>
-            <integer>38</integer>
+            <integer>39</integer>
             <key>zip</key>
             <string>https://github.com/wam-higgins/wam-ipad/archive/refs/heads/main.zip</string>
             <key>clear-previous-content</key>
