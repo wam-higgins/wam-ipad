@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  WAM iPad Lite Version
+  Displays a 2x2 grid of videos for Kiosk Pro Plus on iPad.
+  All .mp4 files must be stored directly in the Local Files directory.
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>More About Arms - WAM iPad Lite</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <script type="text/javascript" src="videofullscreenlite.js"></script>
+
+  <table class="tg">
+    <tbody>
+
+      <!-- Title Row -->
+      <tr>
+        <td class="tg-title" colspan="4">More About Arms</td>
+      </tr>
+
+      <!-- Top Row of Videos -->
+      <tr>
+        <td class="tg-big" colspan="2">
+          <video controls>
+            <source src="../videos/swords-1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </td>
+
+        <td class="tg-big" colspan="2">
+          <video controls>
+            <source src="../videos/swords-2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </td>
+      </tr>
+
+      <!-- Bottom Row of Videos -->
+      <tr>
+        <td class="tg-big" colspan="2">
+          <video controls>
+            <source src="../videos/swords-3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </td>
+
+        <td class="tg-big" colspan="2">
+          <video controls>
+            <source src="../videos/swords-4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>
+    <script>
+    const vids = document.querySelectorAll('video');
+
+    vids.forEach(v => v.addEventListener('play', e => {
+      vids.forEach(o => {
+        if (o !== e.target) {
+          // Pause and unload the other videos entirely
+          o.pause();
+          o.removeAttribute('src');     // release file handle
+          o.load();                     // force unload
+          // Restore data-src reference so it can reload next time
+          const path = o.getAttribute('data-src');
+          if (path) {
+            const source = document.createElement('source');
+            source.src = path;
+            source.type = 'video/mp4';
+            o.appendChild(source);
+          }
+        }
+      });
+    }));
+  </script>
+</body>
+</html>
