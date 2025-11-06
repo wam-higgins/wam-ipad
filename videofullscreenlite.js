@@ -20,6 +20,8 @@ document.addEventListener('click', function(event) {
             } else if (document.webkitExitFullscreen) {
                 document.webkitExitFullscreen();
             }
+            // Reset video to beginning to show opening frame
+            video.currentTime = 0;
         };
     }
 });
